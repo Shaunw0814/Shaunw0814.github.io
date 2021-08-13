@@ -1,0 +1,201 @@
+/* Margin removal */
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Scroll remove */
+.example::-webkit-scrollbar{
+    display: none;
+}
+.example{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+
+/* Main Page formatting */
+.mainPage{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(main-images/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#mainCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+#name{
+    margin: 5px;
+}
+
+/* Main List button format */
+.buttonMain{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px;
+
+    display: inline-block;
+    width: 200px;
+    color: white;
+    background-color: #c0d4dd62;
+    border-radius: 4px;
+}
+
+/* Hover Effect for main screen buttons */
+a.buttonMain:hover{
+    background-color: #aec6cfee;
+}
+
+/* Vertical formatting */
+#verticalButtons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Spacing for buttons */
+#liButtonSpacing{
+    margin: 10px;
+}
+
+/* Horizontal icon menu */
+#iconSpacing{
+    margin: 10px;
+}
+
+
+
+
+/* Stuff Page formatting */
+.stuffPage{
+    background-color: #000000f6;
+}
+
+#pageTitle{
+    text-align: left;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffffc9;
+    font-weight: normal; 
+    margin: 0px;
+}
+
+
+
+
+/* Skills formatting*/
+#skills{
+    margin-left: 10vw;
+    padding-top: 8vh;
+}
+
+.rowBar{
+    display: block;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #d2e1e9;
+}
+
+.rowProgress{
+    padding: 3px;
+    border-radius: 4px;
+    background-color: #ff8725;
+}
+
+.rowTitle{
+    padding: 9px;
+    margin-bottom: 2px;
+    font-weight: normal;
+    font-size: 25px;
+    display: inline-block;
+    color: #ffffffc9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#boxSetupSkills{
+    position: relative;
+    margin-left: 7vw;
+}
+
+
+
+/* Projects formatting */
+#projects{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+}
+
+img.projectImageSetup{
+    width: 48vh;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+td.projectDesc{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+article.cellBackground{
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ff55554f;
+    border-radius: 8px;
+}
+
+#boxSetupProjects{
+    position: relative;
+}
+
+
+/* Contact Footer formatting */
+.contactFooter{
+    position: relative;
+    background-color: #000000;
+    height: 18vh;
+    width: 100vw;
+    background-image: url(stuff-images/leftPoint2.png);
+    background-position-y: bottom;
+    background-position-x: 60vw;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 15%;
+}
+
+#contactInfoHeader{
+    color: #ffffffb0;
+    margin: 0px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contactInfoBody{
+    color: #ffffffb0;
+    text-align: center;
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
