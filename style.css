@@ -136,6 +136,18 @@ a.buttonMain:hover{
     display: inline-block;
 }
 
+#animationContainer{
+    height: 50vh;
+    width: 40vw;
+}
+
+#animationCircle{
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    background-color: #ffffff75;
+    border-radius: 50%
+}
 
 
 /* Projects formatting */
