@@ -1,3 +1,8 @@
+/* slow scroll */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Margin removal */
 body{
     margin: 0 !important;
@@ -128,6 +133,7 @@ a.buttonMain:hover{
 #boxSetupSkills{
     position: relative;
     margin-left: 7vw;
+    display: inline-block;
 }
 
 
@@ -161,6 +167,7 @@ article.cellBackground{
     padding-bottom: 15px;
     background-color: #ff55554f;
     border-radius: 8px;
+    margin-right: 1px;
 }
 
 #boxSetupProjects{
