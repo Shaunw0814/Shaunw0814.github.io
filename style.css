@@ -162,7 +162,7 @@ a.buttonMain:hover{
 }
 
 img.projectImageSetup{
-    width: 48vh;
+    width: 32vw;
     height: auto;
     border-radius: 10px;
     margin-top: 2vh;
@@ -177,12 +177,10 @@ td.projectDesc{
 }
 
 article.cellBackground{
-    padding: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: #ff55554f;
     border-radius: 8px;
-    margin-right: 1px;
 }
 
 #boxSetupProjects{
