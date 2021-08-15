@@ -194,8 +194,6 @@ article.cellBackground{
 .contactFooter{
     position: relative;
     background-color: #000000;
-    height: 18vh;
-    width: 100vw;
     background-image: url(stuff-images/leftPoint2.png);
     background-position-y: bottom;
     background-position-x: 60vw;
