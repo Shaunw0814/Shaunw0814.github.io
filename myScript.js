@@ -1,3 +1,7 @@
+window.onbeforeunload = function () {
+    history.scrollRestoration = "manual"
+}
+
 window.onload = function ballBounce(){
     
     let id = null;
