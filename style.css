@@ -61,6 +61,7 @@ body{
 /* Hover Effect for main screen buttons */
 a.buttonMain:hover{
     background-color: #aec6cfee;
+    cursor: pointer;
 }
 
 /* Vertical formatting */
