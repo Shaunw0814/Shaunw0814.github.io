@@ -88,3 +88,8 @@ window.onload = function ballBounce(){
     }
   
 }
+
+
+window.onbeforeunload = function () {
+    history.scrollRestoration = "manual"
+}
